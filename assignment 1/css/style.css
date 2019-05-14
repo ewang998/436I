@@ -1,0 +1,29 @@
+body {
+  background-color: lightblue;
+}
+
+.title {
+  font-size: 2em;
+  text-align: center;
+  color: #ff99cc;
+}
+
+.posting {
+  text-align: center;
+}
+
+.board {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+}
+
+#newtext {
+  height: 50px;
+  width: 400px;
+  font-size: 14px;
+}

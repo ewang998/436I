@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New Twitter</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/posting.js" defer></script>
+  </head>
+  <body>
+      <div class="title">
+        <h1>The New Twitter</h1>
+      </div>
+      <div class="posting">
+        <form class="" action="" method="post" id="formentry">
+          Share your thoughts!<br>
+<p>dd</p>
+        </form>
+        <textarea name="message" form="formentry" id="newtext"></textarea><br>
+        <button type="button" onclick="cleartext()">Clear</button>
+        <button type="button" onclick="addboard()">submit</button>
+
+      </div>
+      <div class="board">
+        <h2>Check out all the messages!</h2>
+        <input id="hidebutton" type="button" value="Hide board" onclick="">
+        <input id="displaybutton" type="button" value="Display Board" onclick="addboard()"><br>
+        <ul id="messages">
+        </ul>
+      </div>
+  </body>
+</html>
