@@ -7,6 +7,7 @@
     <script type="text/javascript" src="js/posting.js" defer></script>
   </head>
   <body>
+     <a id="about" href="about.html">About New Twitter</a>
       <div class="title">
         <h1>The New Twitter</h1>
       </div>
@@ -17,12 +18,13 @@
         <textarea name="message" form="formentry" id="newtext"></textarea><br>
         <button type="button" onclick="cleartext()">Clear</button>
         <button type="button" onclick="addboard()">submit</button>
+        <input type="checkbox" id="checkstarred">Label Important<br>
 
       </div>
       <div class="board">
         <h2>Check out all the messages!</h2>
-        <input id="hidebutton" type="button" value="Hide board" onclick="">
-        <input id="displaybutton" type="button" value="Display Board" onclick="addboard()"><br>
+        <input id="hidebutton" type="button" value="Clear board" onclick="clearall()">
+        <input id="displaybutton" type="button" value="Reload Board" onclick="loadboard()"><br>
         <ul id="messages">
         </ul>
       </div>
